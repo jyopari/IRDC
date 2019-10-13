@@ -215,9 +215,7 @@ image, contours, hier = cv2.findContours(threshed_img, cv2.RETR_TREE,cv2.CHAIN_A
 boxes = []
 #obtain all the contours
 for c in range(len(contours)):
-
 	x, y, w, h = cv2.boundingRect(contours[c])
-	areaa = cv2.contourArea(contours[c])   
 	boxes.append([x, y, w, h,w*h,contours[c]])
 
 #sort and keep only the 1000 largest contours
