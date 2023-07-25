@@ -8,3 +8,6 @@ Add your FITS files in its respective subfolder inside the /input directory. See
 
 # Paper Link:
 https://iopscience.iop.org/article/10.1088/1538-3873/ab7b39/meta?fbclid=IwAR0mU6npmbBbkzlOHPMvJq2JkBqTy3nZPlGUKc84Y2d5aFnk8MRGUxL5_dw
+
+# Correction
+The second classifier was mistakenly not used in the original work. One can reproduce reproduce our results only using the first classifier.  
